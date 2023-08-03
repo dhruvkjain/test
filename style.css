@@ -1,0 +1,62 @@
+body
+{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-family: 'Chakra Petch', sans-serif;
+	background-color: rgb(42, 45, 53);
+	color: rgb(185, 175, 164);
+}
+.container{
+	height: 100%;
+	position: fixed;
+	display: flex;
+}
+.main 
+{
+	padding: 4px 4px;
+	border: 7px ridge ghostwhite;
+	align-self: center;
+}
+h1
+{
+	font-size: 100px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+hr{
+	width: 100px;
+	border-width: 5px;
+	margin:0,auto;
+	border-color: orange;
+	border-radius: 100px;
+}
+h2{
+	margin-top: 8vh;
+}
+input
+{
+	border-radius: 100px;
+	text-align: center;
+	border: none;
+}
+.b1
+{
+	margin-top: 10px;
+	width: 120px;
+	font-weight: 700;
+    cursor: pointer;
+	color: white;
+	border:0;
+	border-radius: 5px;
+	padding: 12px 10px;
+	background: linear-gradient(to right, rgb(42, 45, 53) 50%,slategray 50%);
+	background-size: 200%; /*put this line to comment to understand*/
+	transition: 0.5s ease-out;
+}
+.b1:hover
+{
+	background-position: right;/*by deafult left*/
+}
